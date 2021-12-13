@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WTest2Activity">
+
+    <EditText
+        android:id="@+id/edt_Test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_Test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test" />
+
+    <TextView
+        android:id="@+id/txv_Test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edt_Check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Start"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F30B0B"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/edt_Num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0" />
+
+    <EditText
+        android:id="@+id/edt_Num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/btn_Calcu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcu" />
+
+    <TextView
+        android:id="@+id/txv_Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RadioButton
+            android:id="@+id/rb_Minus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Minus" />
+
+        <RadioButton
+            android:id="@+id/rb_Multi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Multi" />
+
+        <RadioButton
+            android:id="@+id/rb_Div"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Div" />
+    </RadioGroup>
+
+</LinearLayout>

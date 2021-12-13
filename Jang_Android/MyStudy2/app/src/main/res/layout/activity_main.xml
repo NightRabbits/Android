@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btStudyWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:onClick="onStudyWidgetClick"/>
+    <Button
+        android:id="@+id/btScrollWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scroll"
+        android:onClick="onScrollWidgetClick"/>
+    <Button
+        android:id="@+id/btSlidingWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sliding"
+        android:onClick="onSlidingWidgetClick"/>
+    <Button
+        android:id="@+id/btFlipperWIdget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flipper"
+        android:onClick="onFlipperWidgetClick"/>
+
+</LinearLayout>

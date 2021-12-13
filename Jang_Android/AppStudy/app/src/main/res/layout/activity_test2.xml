@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Test2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgPaper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/paper"
+            tools:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imgRock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/rock"
+            tools:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imgScissor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sissors"
+            tools:visibility="gone" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/cbRock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rock" />
+
+    <CheckBox
+        android:id="@+id/cbScissor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scissor" />
+
+    <CheckBox
+        android:id="@+id/cbPaper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paper" />
+</LinearLayout>

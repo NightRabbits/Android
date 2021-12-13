@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RecvTestActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="넘어온 값"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edt_rName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/edt_rMoney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_rVal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="발로란트" />
+
+        <RadioButton
+            android:id="@+id/rb_rFlash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="플래시게임" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_ScrWidth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="가로해상도"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_ScrHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="세로해상도"
+        android:textSize="24sp" />
+</LinearLayout>

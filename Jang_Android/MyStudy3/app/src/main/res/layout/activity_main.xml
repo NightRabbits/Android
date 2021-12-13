@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_DrawTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DrawTest" />
+
+    <Button
+        android:id="@+id/bt_IntentTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IntentTest" />
+
+    <Button
+        android:id="@+id/bt_FileRwTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FileRWTest" />
+
+    <Button
+        android:id="@+id/bt_HiWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="StudyHiWidget" />
+
+    <Button
+        android:id="@+id/bt_WebTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WebTest" />
+
+    <Button
+        android:id="@+id/bt_TouchTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TouchTest" />
+</LinearLayout>
